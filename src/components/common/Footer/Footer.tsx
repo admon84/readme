@@ -67,8 +67,15 @@ const Footer: React.FC = () => {
 
       <div className={styles.footerBottom}>
         <div className={`${styles.footerBottomContent} container`}>
-          <p className={styles.copyright}>© {currentYear} admon's readme</p>
-          <p className={styles.madeWith}>Built with Next.js & TypeScript</p>
+          <p className={styles.copyright}>
+            &copy; {currentYear} admon's readme
+          </p>
+          <p className={styles.madeWith}>
+            Built with Next.js |{' '}
+            <a href='https://github.com/admon84/readme' target='_blank'>
+              View Source
+            </a>
+          </p>
         </div>
       </div>
     </footer>

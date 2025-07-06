@@ -6,9 +6,6 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/admon-readme' : '',
-  basePath: process.env.NODE_ENV === 'production' ? '/admon-readme' : '',
-
   // Enable CSS Modules
   cssModules: true,
 
