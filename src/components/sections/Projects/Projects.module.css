@@ -53,7 +53,6 @@
 .categoryButton:hover {
   border-color: var(--color-primary);
   color: var(--color-primary);
-  transform: translateY(-2px);
 }
 
 .categoryButton.active {
@@ -94,8 +93,6 @@
 .projectCard:hover {
   background: var(--color-surface-elevated);
   border-color: var(--color-primary);
-  transform: translateY(-4px);
-  box-shadow: var(--shadow-large);
 }
 
 .projectCard:hover::before {

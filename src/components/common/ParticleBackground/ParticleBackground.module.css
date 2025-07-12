@@ -87,16 +87,3 @@
     transform: translate(-50%, -50%) scale(0.8);
   }
 }
-
-/* Reduce particle intensity for users who prefer reduced motion */
-@media (prefers-reduced-motion: reduce) {
-  .particle {
-    animation-duration: 20s !important;
-    opacity: 0.3 !important;
-  }
-  
-  .particle::before {
-    animation-duration: 12s !important;
-    opacity: 0.1 !important;
-  }
-} 

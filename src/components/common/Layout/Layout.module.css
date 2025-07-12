@@ -29,13 +29,6 @@
   z-index: 0;
 }
 
-/* Accessibility improvements */
-@media (prefers-reduced-motion: reduce) {
-  .layout::before {
-    animation: none;
-  }
-}
-
 /* Mobile optimizations */
 @media (max-width: 768px) {
   .layout {

@@ -68,8 +68,6 @@
   background: var(--color-primary);
   color: var(--color-background);
   border-color: var(--color-primary);
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-medium);
 }
 
 .socialIcon {
@@ -178,15 +176,6 @@
   .socialLink {
     width: 100%;
     justify-content: center;
-  }
-}
-
-/* Accessibility */
-@media (prefers-reduced-motion: reduce) {
-  .socialLink,
-  .footerNav button,
-  .footerNav button::before {
-    transition: none;
   }
 }
 

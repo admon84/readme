@@ -241,7 +241,7 @@ const ParticleBackground: React.FC = () => {
           x: Math.random() * 100, // Percentage position
           y: Math.random() * 100, // Random position on screen
           size: size,
-          delay: Math.random() * 20, // 0-20s staggered start for natural variety
+          delay: Math.random() * 2, // 0-2s staggered start for immediate animation
           opacity, // Dynamic opacity based on particle type
           animationName: randomAnimation.name,
           animationDuration: randomAnimation.duration,

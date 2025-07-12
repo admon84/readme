@@ -16,7 +16,7 @@ const Hero: React.FC = () => {
           </p>
           <p className={styles.heroDescription}>
             When I'm not coding for work, I play Screeps (a programming game)
-            and contribute to open-source projects.
+            and contribute to some open-source projects.
           </p>
           <div className={styles.heroActions}>
             <button
@@ -43,32 +43,37 @@ const Hero: React.FC = () => {
                 <span className={styles.codeKeyword}>const</span>
                 <span className={styles.codeVariable}> developer</span>
                 <span className={styles.codeOperator}> = </span>
-                <span className={styles.codeString}>{'{'}</span>
+                <span className={styles.codeOperator}>{'{'}</span>
               </div>
               <div className={styles.codeLine}>
                 <span className={styles.codeProperty}>&nbsp;&nbsp;name</span>
                 <span className={styles.codeOperator}>: </span>
-                <span className={styles.codeString}>"admon84"</span>
+                <span className={styles.codeString}>"admon"</span>
                 <span className={styles.codeOperator}>,</span>
               </div>
               <div className={styles.codeLine}>
                 <span className={styles.codeProperty}>&nbsp;&nbsp;passion</span>
                 <span className={styles.codeOperator}>: </span>
                 <span className={styles.codeString}>
-                  "Creating Intuitive Solutions"
+                  "Building exceptional digital experiences"
                 </span>
                 <span className={styles.codeOperator}>,</span>
               </div>
               <div className={styles.codeLine}>
                 <span className={styles.codeProperty}>&nbsp;&nbsp;skills</span>
-                <span className={styles.codeOperator}>: </span>
-                <span className={styles.codeString}>
-                  ["TypeScript", "React", "Node.js"]
-                </span>
-                <span className={styles.codeOperator}>,</span>
+                <span className={styles.codeOperator}>{': [ '}</span>
+                <span className={styles.codeString}>"Node.js"</span>
+                <span className={styles.codeOperator}>{', '}</span>
+                <span className={styles.codeString}>"TypeScript"</span>
+                <span className={styles.codeOperator}>{', '}</span>
+                <span className={styles.codeString}>"React"</span>
+                <span className={styles.codeOperator}>{', '}</span>
+                <span className={styles.codeOperator}> ...</span>
+                <span className={styles.codeProperty}>manyMore</span>
+                <span className={styles.codeOperator}>{' ],'}</span>
               </div>
               <div className={styles.codeLine}>
-                <span className={styles.codeString}>{'}'}</span>
+                <span className={styles.codeOperator}>{'}'}</span>
               </div>
             </div>
           </div>

@@ -247,19 +247,6 @@
   }
 }
 
-/* Accessibility */
-@media (prefers-reduced-motion: reduce) {
-  .header,
-  .navLink,
-  .navLink::before,
-  .hamburger,
-  .mobileNav,
-  .mobileNavItem,
-  .mobileNavLink {
-    transition: none;
-  }
-}
-
 /* High contrast mode */
 @media (prefers-contrast: high) {
   .header {
